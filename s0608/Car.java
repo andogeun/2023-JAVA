@@ -1,7 +1,7 @@
 package s0608;
 
 public class Car {
-	String carname;
+	String name = "차";
 	String color;
 	int velocity;
 	void speedUp() {
@@ -12,5 +12,7 @@ public class Car {
 		velocity -= 5;
 		System.out.println("속도 " + velocity + " 감소");
 	}
-	
+	String print() {
+		return "[나는 " + name + "이다.]";
+	}
 }
