@@ -1,4 +1,4 @@
-package s0316;
+package s0316; //주석
 
 public class Exam03 {
 
